@@ -11,13 +11,16 @@
 <body>
     <h1>Formulário de cadastro</h1>
     <form action="">
-        <span>Nome: </span><input type="text" placeholder="Seu Nome">
+        <label for="name">Nome: </label for="name">
+        <input id="name" type="text" placeholder="Seu Nome">
         <br>
-        <span>Email: </span><input type="email" placeholder="Seu email">
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" placeholder="Seu email">
         <br>
-        <span>Senha: </span><input type="password" placeholder="Seu senha">
+        <label for="password">Senha:</label>
+        <input id="password" type="password" placeholder="Seu senha">
         <br>
-        <button>Cadastrar-se</button>
+        <button type="submit">Cadastrar-se</button>
     </form>
     <!-- Fomulário de cadastro com nome, email e senham, e a existencia de um botão para realizar o cadastro
     Envie esse arquivo para o github em uma branch chama exercicio_html e nos envie o link
